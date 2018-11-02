@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.0/angular.min.js"></script>
+<script src="javascripts/dnd.js"></script>
+<link rel="stylesheet" type="text/css" href="stylesheets/style.css">
+  <meta charset="utf-8">
+  <title>DND</title>
+</head>
+<body>
+  
+  <div id='app' ng-app='app' ng-controller='mainCtrl'>
+    
+    
+    
+    
+    
+    
+
+    <ul ng-if='characters.length' class='list center stretch'>
+      <h1>DnD Characters</h1>
+      <div>
+        <form id="goToCreateForm" ng-submit="goToCreatePage()">
+        <input type="submit" value="Create a Character">
+     </form>
+        
+      </div>
+      
+      <li ng-repeat='p in characters' class='characters'>
+          
+         <div class="row">
+          <div class="col-sm-6">
+              <img class='avatar' ng-src="{{p.imageUrl}}" />
+          </div>
+          <div class="col-sm-3">
+            <h2>{{ p.name }}</h2>
+            <h2>{{ p.clas }}</h2>
+            <h2>{{ p.bio }}</h2>
+          </div>
+        </div> 
+      </li>
+    </ul>
+    
+    
+
+    
+
+  </div>
+
+</body>
+</html>
