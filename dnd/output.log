@@ -1,0 +1,24 @@
+nohup: ignoring input
+[0mGET / [36m304 [0m8.534 ms - -[0m
+[0mGET /javascripts/dnd.js [36m304 [0m1.750 ms - -[0m
+[0mGET /stylesheets/style.css [32m200 [0m5.123 ms - 1130[0m
+In Character getting
+[0mGET /characters [36m304 [0m4.879 ms - -[0m
+Inside get character creator
+[0mGET /characterCreator [36m302 [0m5.498 ms - 76[0m
+[0mGET /dndCreator.html [36m304 [0m0.750 ms - -[0m
+[0mGET /javascripts/dnd.js [36m304 [0m0.302 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.192 ms - -[0m
+In Character getting
+[0mGET /characters [36m304 [0m1.111 ms - -[0m
+In Characters Post
+{ name: 'Mario',
+  imageUrl: 'https://media.tenor.com/images/b87818fa772a7625a052e400f3261287/tenor.gif',
+  clas: 'Plumber',
+  bio: 'He doesnt actually plumb' }
+[0mPOST /characters [32m200 [0m18.563 ms - -[0m
+[0mGET / [36m304 [0m0.577 ms - -[0m
+[0mGET /javascripts/dnd.js [36m304 [0m0.305 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.208 ms - -[0m
+In Character getting
+[0mGET /characters [32m200 [0m1.049 ms - 390[0m
